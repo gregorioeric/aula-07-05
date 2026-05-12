@@ -1,5 +1,23 @@
-.container div{
+.container > div{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.resultado {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.hide {
+    display: none;
 }
